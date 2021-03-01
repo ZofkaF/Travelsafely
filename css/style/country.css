@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Righteous&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #5148fc;
+    background-color: #ededed;
+    width: 1100px;
+    margin-left: 4.5em;
+} 
+
+
+h2, a {
+    font-family: 'Righteous', sans-serif;
+    margin-top: 1em;
+    text-align: center;
+}
+
+a {
+    text-align: left;
+    margin-left: .5em;
+}
+
+#google_translate_element {
+    margin-left: 61em;
+    margin-top: .8em;
+}

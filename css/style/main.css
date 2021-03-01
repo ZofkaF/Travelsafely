@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Righteous&display=swap');
+
+
+body {
+    font-family: 'Righteous', sans-serif;
+    text-align: left;
+    color: #281dff;
+    background-color: #ededed;
+} 
+
+.hero {
+    height: 600px;
+    position: relative;
+    margin: 0;
+}
+
+h2 {
+    font-size: 5.5em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 1.2em;
+    padding-left: .5em;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgba(40, 33, 71, 0.2);
+}
+
+h4 {
+    color: #0c03b3;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 3.5em;
+    font-size: 1.3em;
+}
+
+.page-header {
+    background: url('/images/hat.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 45%;
+    margin-left: 2em;
+    height: 600px;
+}
+
+
+.pick {
+    background-color: #ff7d49;
+    border: none;
+    width: 30%;
+    height: 10%;
+    color: white;
+    font-weight: light;
+    border-radius: .5em;
+    font-size: 1.8em;
+    margin-left: 5em;
+    margin-top: 4em;
+    cursor: pointer;
+}
+
+.pick:hover {
+    background-color: #5148fc;
+}
+
+.fb {
+    background-color: #fd9268;
+    border: none;
+    width: 10%;
+    height: 7%;
+    color: white;
+    font-weight: light;
+    border-radius: .7em;
+    font-size: .9em;
+    position: absolute;
+    margin-left: .9em;
+    margin-top: -3em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.fb:hover {
+    background-color: #4b42fa;
+}
+
+.news {
+    font-family: 'Roboto', sans-serif;
+    width: 1230px;
+    margin: 1em;
+    padding: 2em;
+}
+
+.sel-box{
+    position:relative;
+}
+
+a {
+    text-decoration:none;
+}
+
+#google_translate_element {
+  margin-left: 66em;
+  margin-top: .8em;
+}
+
+@media (max-width: 400px) {
+    .page-header {
+        background-size: 120%;
+        background-position: 70% 100%;
+     }
+
+    h2 {
+        color: black;
+        font-size: 4em;
+        text-align: left;
+        padding-left: .5em;
+        padding-top: 1.5em;
+    }
+
+    .fb {
+        margin-top: 1.7em;
+        margin-left: 2em;
+        width: 25%;
+        height: 5%;
+        font-size: .8em;
+    }
+
+    .pick {
+        width: 70%;
+        height: 10%;
+        font-size: 1.5em;
+        margin-left: 1.5em;
+        margin-top: 7em;
+    }
+
+    .news {
+        width: 90%;
+        margin-top: 1em;
+        padding: 0;
+    }
+}
+
+
+ 

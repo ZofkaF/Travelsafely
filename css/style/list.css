@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Righteous&display=swap');
+
+body {
+    font-family: 'Righteous', sans-serif;
+    text-align: left;
+    color: #5148fc;
+    background-color: #ededed;
+} 
+
+.back {
+    position: absolute;
+    margin-top: 36em;
+    margin-left: .6em;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    background: #fd9268;
+    color: white;
+    border: none;
+    margin-top: 5em;
+    margin-left: 9em;
+    padding: 0.4em 0.8em;
+    font-size: 1.4em;
+    border-radius: .5em;
+    width: 200%;
+}
+
+.dropdown .dropdown-menu {
+    top: 100%;
+    display: none;
+    margin-left: 12.5em;
+    list-style: none; 
+    width: 100%;
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown a {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    background: #ededed;
+    color: #000000;
+}
+.dropdown a:hover {
+    background-color: #9792f7;
+}
+  
